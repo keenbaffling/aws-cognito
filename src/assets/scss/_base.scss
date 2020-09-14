@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $ff-sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: $dark;
+  color: $light;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $ff-serif;
+}
+
